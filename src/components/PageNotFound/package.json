@@ -1,0 +1,7 @@
+{
+  "name": "PageNotFound",
+  "version": "0.1",
+  "private": true,
+  "main": "./PageNotFound.js",
+  "author": "Naveen"
+}
