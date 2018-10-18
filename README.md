@@ -48,6 +48,14 @@ the best place to do it would be inside a saga.
 All the api calls are wrapped here and exposed as functions. If your application interacts with multiple api providers
 you can further split this file per api provider.
 
+There are wrappers available for GET, PUT, POST, PATCH and DELETE. Making an API call is as simple as declaring the
+url in the endpoints and writing an appropriate function. See getCurrentWeather() in api.js.
+
+## Persisting the State
+
+To persist the state in the browser we use redux-persist and localForage. Persistence happens automatically. For more
+info on this see [redux-persist](https://github.com/rt2zz/redux-persist).  
+
 ### Dependencies
 
 * [Create React App](https://github.com/facebook/create-react-app)
