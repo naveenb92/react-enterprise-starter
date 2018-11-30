@@ -2,9 +2,6 @@
   "name": "react-enterprise-starter",
   "version": "0.1.0",
   "private": true,
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "dependencies": {
     "@material-ui/core": "^3.2.1",
     "@material-ui/icons": "^3.0.1",
@@ -20,13 +17,6 @@
     "redux-persist": "^4.3.1",
     "redux-persist-immutable": "^4.3.1",
     "redux-saga": "^0.16.2"
-  },
-  "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
   },
   "scripts": {
     "start": "react-scripts start",

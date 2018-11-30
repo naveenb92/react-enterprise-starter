@@ -1,3 +1,5 @@
+import * as Immutable from 'immutable';
+
 class RequestError extends Error {
   constructor(response) {
     super('Request Failed');
